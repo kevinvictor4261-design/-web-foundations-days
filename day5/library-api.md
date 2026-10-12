@@ -15,7 +15,7 @@ Base URL: `https://api.librarysystem.com/v1`
 ### 2. List Books by Author (Query Parameter)
 * **Method:** `GET`
 * **Path:** `/books?author=Jane+Austen`
-* **Description:** Retrieves a filtered list of books written by a specific author.
+* **Description:** Retrieves a filtered list of books written by a specific author using a query parameter.
 * **Success Status Code:** `200 OK`
 
 ### 3. Get a Single Book
@@ -29,3 +29,10 @@ Base URL: `https://api.librarysystem.com/v1`
 * **Path:** `/books`
 * **Description:** Adds a new book record to the library catalog.
 * **Example Request Body:**
+  ```json
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "978-0132350884",
+    "publishedYear": 2008
+  }
