@@ -1,0 +1,7 @@
+# Course Reflection
+
+Throughout this curriculum, the most challenging concept for me was mastering asynchronous JavaScript execution flows and race condition prevention in distributed system designs. Coordinating asynchronous network requests with `async/await`, handling loading/error states robustly, and designing backend concurrency controls like distributed locks and database transactions required a complete shift in how I think about time and state in software. I overcame this by practicing step-by-step state machine modeling and rigorously testing edge cases with `try/catch/finally` blocks and database constraints.
+
+Based on the feedback received during my capstone project, I would improve my front-end architecture by modularizing component rendering and incorporating automated unit testing for API clients. Clean separation of concerns and automated test suites are vital for scaling production codebases cleanly.
+
+Moving forward, my next learning goals are to dive deeper into advanced backend microservices architecture, containerization with Docker, and cloud infrastructure deployment on AWS. This will allow me to turn my system design blueprints into fully deployed, production-grade applications.
